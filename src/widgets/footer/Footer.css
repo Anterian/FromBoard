@@ -56,7 +56,7 @@
 .footer__right::after {
 
     content: '';
-    background-image: url('/public/images/Vector.png');
+  
     width: 14px;
     height: 14px;
     position: absolute;
@@ -189,7 +189,7 @@
     
     .footer__right::after {
         content: '';
-        background-image: url('/public/images/Vector.png');
+       
         width: 14px;
         height: 14px;
         position: absolute;

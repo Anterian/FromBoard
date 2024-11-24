@@ -16,7 +16,7 @@ const Footer = () => {
 
 
                             <div className="footer__logo">
-                                <img src="/images/logo.png" alt="" />
+                              
                                 <div className="footer__text">FromBoard Delivery</div>
                             </div>
 
