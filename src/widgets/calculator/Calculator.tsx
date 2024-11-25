@@ -161,7 +161,7 @@ const Calculator = () => {
                         мира и получать их в России
                     </div>
                     </div>
-                    <img src="./images/Box.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/Box.png`} alt="" />
                 </div>
 
                 <div className="calc_calculator">

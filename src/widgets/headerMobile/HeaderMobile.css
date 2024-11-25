@@ -167,6 +167,7 @@ input::-webkit-inner-spin-button {
     }
 
 
+    
     .number-tel-mobile {
         margin-right: 20px;
     }
@@ -182,7 +183,7 @@ input::-webkit-inner-spin-button {
 
     .header-mobile-burger.active {
         
-       
+    
     }
 
     .line-1, .line-2, .line-3 {
@@ -209,33 +210,52 @@ input::-webkit-inner-spin-button {
 
     
 
-
-    .for__burger { 
-        position: absolute;
-       
-        left: 10%;
-        right: 10%;
-    }
+/* -------------- ДЛЯ БУРГЕРА ------------ */
+    
+.burger__wrapper {
+    position: relative;
+}
 
 
     .burger__wrapper.active {
 
-        background-color: rgb(255, 255, 255);
-        width: 100%;
-        height: 175px;
-        position: absolute;
-        left: 0;
-       
         
-        border-bottom-left-radius: 16px;
-        border-bottom-right-radius: 16px;
+        max-width: 640px; 
+        width: 100%;
+        
+    }
+
+    
+
+    .burger__wrapper.active::before {
+        content: ''; 
+        position: fixed; 
+         height: 200px;
+       background-color: white;
       
-      
+       left: 0;
+       width: 100vw; 
+       
+       border-bottom-left-radius: 16px;
+       border-bottom-right-radius: 16px;
+    }
+ 
+
+    .header__delivery__info-mobile.active {
+        z-index: 100;
+        position: relative;
+    }
+
+
+
+    .container {
         
     }
     
-
     
+   .header__inner-mobile {
+    position: relative;
+   }
 
 
 
@@ -330,6 +350,15 @@ input::-webkit-inner-spin-button {
     margin-right: 10px;
    }
 
+   .burger__wrapper.active {
+
+    position: absolute;
+    max-width: 480px; 
+    width: 100%;
+
+}
+
+
    
 }
 
@@ -349,7 +378,7 @@ input::-webkit-inner-spin-button {
 
 
    .header__nav-mobile.active button {
-    padding: 7px 7px;
+        padding: 7px 7px;
    }
 
    .number-tel-mobile{
@@ -377,11 +406,21 @@ input::-webkit-inner-spin-button {
 
    }
 
-   .for__burger { 
+
+
+
+
+.header__nav-mobile.active ul {
+    
+}
+
+
+.burger__wrapper.active {
+
     position: absolute;
-   
-    left: 15%;
-    right: 15%;
+    max-width: 320px; 
+    width: 100%;
+
 }
    
 }
@@ -471,4 +510,18 @@ input::-webkit-inner-spin-button {
       .header__nav-mobile {
         margin-top: 15px;
       }
+
+
+      .burger__wrapper.active {
+
+        position: absolute;
+        max-width: 270px; 
+        width: 100%;
+    
+    }
+
+
+    .burger__wrapper.active::before {
+        height: 150px;
+    }
 }
