@@ -345,9 +345,11 @@
 
     .calculator__subtitle {
         font-size: 12px;
-
+        width: 300px;
 
     }
+
+   
 }
 
 
@@ -388,5 +390,6 @@
 
     .calculator__subtitle {
         width: 300px;
+       
     }
 }
