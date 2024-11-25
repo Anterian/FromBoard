@@ -161,7 +161,7 @@ const Calculator = () => {
                         мира и получать их в России
                     </div>
                     </div>
-                    <img src="/images/box.png" alt="" />
+                    <img src="./images/Box.png" alt="" />
                 </div>
 
                 <div className="calc_calculator">
