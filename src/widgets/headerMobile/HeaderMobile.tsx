@@ -47,7 +47,7 @@ const HeaderMobile = () => {
 
 
                             <div className="header__logo-mobile">
-                                <img src="/images/logo.png" alt="" />
+                                <img src="./images/Logo.png" alt="" />
                                 <div className="logo__text-mobile">FromBoard Delivery</div>
                             </div>
 
