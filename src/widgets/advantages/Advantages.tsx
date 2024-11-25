@@ -49,7 +49,7 @@ const Advantages = () => {
                             <div style={{display: 'flex'}}>
 
                             
-                            <img src="./images/best support.png" alt="" />
+                            <img src="./images/BestSupport.png" alt="" />
                             <div className="advantages__info-row">
                             <h2 className='advantage__title'>Удобный сервис</h2>
                             <p className='advantage__info'>Стремимся сделать процесс доставки <br />максимально удобным для вас, чтобы<br /> опыт остался приятным и беззаботным</p>
@@ -57,7 +57,7 @@ const Advantages = () => {
                             </div>
 
                             <div style={{display: 'flex'}}>
-                            <img src="./images/clear info.png" alt="" />
+                            <img src="./images/ClearInfo.png" alt="" />
                             <div className="advantages__info-row">
                             <h2 className='advantage__title'>Прозрачность работы</h2>
                             <p className='advantage__info'>Мы предоставляем полный контроль<br /> над каждым этапом доставки, от момента<br /> заказа до момента прибытия заказа</p>
@@ -65,7 +65,7 @@ const Advantages = () => {
                             </div>
 
                             <div style={{display: 'flex'}}>
-                            <img src="./images/garantee.png" alt="" />
+                            <img src="./images/Garantee.png" alt="" />
                             <div className="advantages__info-row">
                             <h2 className='advantage__title'>Страхование груза</h2>
                             <p className='advantage__info'>Наше страхование обеспечивает полную<br /> защиту и покрытие почти все неприятные<br /> и неожиданные ситуации</p>

@@ -20,22 +20,22 @@ const Guarantee = () => {
                     <div className="guarantee__photos">
 
                         <div className='photo'>
-                            <img src="./images/Rectangle 1.png" alt="" />
+                            <img src="./images/Rectangle1.png" alt="" />
                             <p className="photo__title">Свидетельство о регистрации в РФ</p>
                         </div>
 
                         <div className='photo'>
-                            <img src="./images/Rectangle 2.png" alt="" />
+                            <img src="./images/Rectangle2.png" alt="" />
                             <p className="photo__title">Свидетельство о регистрации в США</p>
                         </div>
 
                         <div className='photo'>
-                            <img src="./images/Rectangle 3.png" alt="" />
+                            <img src="./images/Rectangle3.png" alt="" />
                             <p className="photo__title">Свидетельство о регистрации в Китае</p>
                         </div>
 
                         <div className='photo'>
-                            <img src="./images/Rectangle 4.png" alt="" />
+                            <img src="./images/Rectangle4.png" alt="" />
                             <p className="photo__title">Свидетельство о регистрации в <br />Великобритнии</p>
                         </div>
 

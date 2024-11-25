@@ -47,7 +47,7 @@ const Header = () => {
 
 
                         <div className="header__logo">
-                            <img src="./images/logo.png" alt="" />
+                            <img src="./images/Logo.png" alt="" />
                             <div className="logo__text">FromBoard Delivery</div>
                         </div>
 
