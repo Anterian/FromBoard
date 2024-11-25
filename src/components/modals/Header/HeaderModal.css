@@ -1,0 +1,69 @@
+
+.headerModal {
+    position: fixed;
+    top: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 100px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+    opacity: 0; 
+    visibility: hidden; 
+    transition: top 0.5s ease, opacity 0.5s ease, visibility  0.5s; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 100;
+  }
+  
+  
+  .headerModal.open {
+    top: 50%; 
+    opacity: 1; 
+    visibility: visible; 
+  }
+  
+  
+  .headerModal-btn {
+    color: white;
+    background-color: #8B5CF6;
+    padding: 10px 30px;
+    border-radius: 4px;
+  }
+  
+  .headerModal-title {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+
+  .headerModal__close-btn {
+
+
+    background: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 15px;
+    margin-top: 8px;
+    font-size: 18px;
+
+  
+  }
+
+
+
+  .headerModal-input {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+
+.error-message-header {
+  color: red;
+  font-size: 12px;
+  
+}

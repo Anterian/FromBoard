@@ -1,0 +1,27 @@
+.header-mobile {
+    display: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: block;
+}
+
+
+
+@media (max-width: 1024px) {
+   
+    .header-mobile {
+        display: block;
+
+    }
+
+    .header {
+        display: none;
+    }
+
+   
+}

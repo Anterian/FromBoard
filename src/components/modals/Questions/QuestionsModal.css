@@ -1,0 +1,97 @@
+.questionModal {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 100px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  opacity: 0;
+  visibility: hidden;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 100;
+  transition: top 0.5s ease, opacity 0.5s ease, visibility 0.5s;
+}
+
+.questionModal.open {
+  top: 50%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.questionModal.closing {
+  transition: top 0.5s ease, opacity 0.5s ease, visibility 0.5s; 
+  opacity: 0;
+  visibility: hidden;
+  top: -100%;
+}
+
+.questionModal.no-animation {
+  transition: none;
+  top: -100%;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.questionModal-btn {
+  color: white;
+  background-color: #8B5CF6;
+  padding: 10px 30px;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.questionModal-title {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.questionModal__close-btn {
+  background: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-right: 15px;
+  margin-top: 8px;
+  font-size: 18px;
+}
+
+.questionsButtons {
+  display: flex;
+  gap: 15px;
+}
+
+.questionModal2 {
+  position: fixed;
+  top: -100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: top 0.5s ease, opacity 0.5s ease, visibility 0.5s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 150;
+}
+
+.questionModal2.open {
+  top: 50%;
+  opacity: 1;
+  visibility: visible;
+}
+
+.questionModal2.hiding {
+  top: -100%;
+  opacity: 0;
+  visibility: hidden;
+}

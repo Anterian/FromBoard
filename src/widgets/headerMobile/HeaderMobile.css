@@ -1,0 +1,474 @@
+body {
+    font-family: Roboto;
+}
+
+.header-mobile {
+    margin-top: 25px;
+  position: relative;
+}
+
+.header__inner-mobile {
+  
+   display: flex;
+   align-items: center;
+}
+
+
+.header__logo-mobile {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.logo__text-mobile {
+   
+
+font-size: 24px;
+font-weight: 900;
+
+
+
+
+
+}
+.header__delivery__info-mobile {
+    
+margin-right: 25px;
+font-size: 16px;
+
+line-height: 24px;
+
+
+}
+.header__number-mobile {
+    position: relative;
+}
+
+.header__nav-mobile::before {
+    content: '';
+    background-color: #A78BFA;
+    
+   width: 100%;
+   height: 1px;
+    position: absolute;
+    transform: translateY(-30px);
+    left: 0;
+    right: 0;
+  
+}
+
+.header__nav-mobile::after {
+    content: '';
+    background-color: #A78BFA;
+    left: 0;
+    right: 0;
+   width: 100%;
+   height: 1px;
+    position: absolute;
+    transform: translateY(33px);
+
+  
+}
+
+.number-tel-mobile {
+    
+font-size: 24px;
+font-weight: 900;
+line-height: 32px;
+
+
+}
+.number-free-mobile {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+
+.header__delivery__info-mobile {
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 30px 0 70px;
+   margin-top: 30px;
+}
+
+
+
+
+
+#hello,
+#hello2,
+#hello3 {
+    text-align: center;
+}
+
+
+.header__nav-mobile {
+    position: relative; 
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.header__nav-mobile ul {
+    display: flex;
+    flex: 1;
+    gap: 25px;
+}
+
+.header__nav-mobile li {
+    
+font-size: 16px;
+font-weight: 700;
+
+
+}
+
+
+
+.header__nav-mobile a {
+    color: black;
+    transition: all 0.2s ease-in;
+}
+
+.header__nav-mobile a:hover {
+    color: #8B5CF6;
+
+}
+
+.header__nav-mobile button {
+    color: white;
+    background-color: #8B5CF6;
+    padding: 10px 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  
+    -webkit-appearance: none;
+  
+}
+
+.main {
+    background-color: #E5E7EB;
+   
+    
+    padding-bottom: 70px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+    
+    .main {
+        
+    }
+
+
+    .number-tel-mobile {
+        margin-right: 20px;
+    }
+    .header-mobile-burger {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 2px;
+        justify-content: center;
+       
+       
+    }
+
+
+    .header-mobile-burger.active {
+        
+       
+    }
+
+    .line-1, .line-2, .line-3 {
+        width: 24px;
+        height: 4px;
+        background-color: #A78BFA;
+        border-radius: 100px;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .header-mobile-burger.active .line-1 {
+        transform: translateY(6px) rotate(55deg);
+      }
+      
+      .header-mobile-burger.active .line-2 {
+        opacity: 0;
+      }
+      
+      .header-mobile-burger.active .line-3 {
+        transform: translateY(-6px) rotate(-55deg);
+      }
+    
+
+
+    
+
+
+    .for__burger { 
+        position: absolute;
+       
+        left: 10%;
+        right: 10%;
+    }
+
+
+    .burger__wrapper.active {
+
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        height: 175px;
+        position: absolute;
+        left: 0;
+       
+        
+        border-bottom-left-radius: 16px;
+        border-bottom-right-radius: 16px;
+      
+      
+        
+    }
+    
+
+    
+
+
+
+    .header__nav-mobile {
+        display: none;
+    }
+
+    .header__delivery__info-mobile {
+        display: none;
+    }
+
+    .number-free-mobile {
+        display: none;
+    }
+    .logo__text-mobile {
+        font-size: 18px;
+    }
+
+    .header__number-mobile {
+        font-size: 20px;
+        display: flex;
+        }
+
+
+
+        .header__nav-mobile.active {
+            display: flex;
+            padding: 0 50px;
+        }
+
+     
+
+        .number-tel-mobile.active {
+            display: flex;
+        }
+
+        .header__delivery__info-mobile.active {
+            display: flex;
+            
+        }
+
+        .header__nav-mobile button {
+            padding: 10px 35px;
+        }
+
+        .header__nav-mobile ul {
+            gap: 30px;
+        }
+
+       .header__delivery__info-mobile {
+        padding: 0;
+        margin-right: 0;
+       }
+       
+
+       .overlayMobile {
+       
+      
+    }
+
+   
+  
+}
+
+
+
+
+@media (max-width: 640px) {
+
+    .header__nav-mobile.active {
+        padding: 0;
+    }
+   .header__delivery__info-mobile.active {
+    font-size: 13px;
+   }
+
+   .header__nav-mobile.active li {
+    font-size: 13px;
+   }
+
+
+   .header__nav-mobile.active button {
+    padding: 10px 20px;
+   }
+
+   .number-tel-mobile{
+    font-size: 18px;
+   
+   }
+
+   .header__number-mobile {
+    margin-right: 10px;
+   }
+
+   
+}
+
+
+
+
+@media (max-width: 480px) {
+
+  
+   .header__delivery__info-mobile.active {
+    font-size: 9px;
+   }
+
+   .header__nav-mobile.active li {
+    font-size: 10px;
+   }
+
+
+   .header__nav-mobile.active button {
+    padding: 7px 7px;
+   }
+
+   .number-tel-mobile{
+    font-size: 14px;
+   
+   }
+
+   .header__number-mobile {
+    margin-right: 0;
+    
+   }
+
+   .number-tel-mobile {
+    font-size: 13px;
+    margin-right: 7px;
+   }
+
+   .logo__text-mobile {
+    font-size: 13px;
+   }
+
+
+   .header__logo-mobile img {
+    width: 40px;
+
+   }
+
+   .for__burger { 
+    position: absolute;
+   
+    left: 15%;
+    right: 15%;
+}
+   
+}
+
+
+
+
+
+@media (max-width: 320px) {
+
+    br {
+        display: none;
+      }
+
+  .header__logo-mobile img {
+    width: 30px;
+  }
+
+  .logo__text-mobile {
+    font-size: 12px;
+  }
+
+  .number-tel-mobile {
+    font-size: 11px;
+  }
+
+
+  .line-1, .line-2, .line-3 {
+    width: 18px;
+    height: 4px;
+}
+
+
+.header__nav-mobile.active li{
+    font-size: 8px;
+
+}
+
+
+.header__nav-mobile.active button {
+    padding: 0;
+    font-size: 10px;
+}
+
+.header__nav-mobile.active ul {
+    gap: 10px;
+}
+
+    .header__delivery__info-mobile.active {
+        font-size: 10px;
+        text-wrap: nowrap;
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    br {
+        display: none;
+      }
+
+      .header__nav-mobile.active ul{
+        margin-bottom: 25px;
+      }
+
+      .header__nav-mobile::after {
+        transform: translateY(0px);
+      }
+
+      .header__nav-mobile::before {
+        transform: translateY(-25px);
+      }
+
+
+      .header__nav-mobile.active button {
+        margin-bottom: 23px;
+      }
+
+      .header__delivery__info-mobile.active {
+        margin-top: 0;
+      }
+
+      .burger__wrapper.active {
+        height: 130px;
+        
+      }
+
+      .header__nav-mobile {
+        margin-top: 15px;
+      }
+}

@@ -1,0 +1,247 @@
+body {
+    font-family: Roboto;
+}
+
+
+
+header {
+    margin-top: 25px;
+    padding-bottom: 20px;
+}
+.container {
+    max-width: 1540px;
+    margin: 0 auto;
+    
+  
+}
+.header__inner {
+  
+   display: flex;
+   align-items: center;
+}
+
+
+.header__logo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.logo__text {
+   
+
+font-size: 24px;
+font-weight: 900;
+
+
+
+
+
+}
+.header__delivery__info {
+    
+margin-right: 25px;
+font-size: 16px;
+
+line-height: 24px;
+
+
+}
+.header__number {
+    position: relative;
+}
+
+.header__number::before {
+    content: '';
+    background-color: #A78BFA;
+   width: 1px;
+   height: 75px;
+    position: absolute;
+    right: 10px;
+   left: 0;
+   
+   transform: translate(-12px);
+}
+
+.number-tel {
+    
+font-size: 36px;
+font-weight: 900;
+
+
+
+}
+.number-free {
+    font-weight: 300;
+    font-size: 24px;
+}
+
+
+
+
+.delivery__info__flex {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.header__nav {
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+.header__nav ul {
+    display: flex;
+    flex: 1;
+    gap: 25px;
+}
+
+.header__nav li {
+    
+font-size: 16px;
+font-weight: 700;
+
+
+}
+
+
+
+.header__nav a {
+    color: black;
+    transition: all 0.2s ease-in;
+}
+
+.header__nav a:hover {
+    color: #8B5CF6;
+
+}
+
+.header__nav button {
+    color: white;
+    background-color: #8B5CF6;
+    padding: 10px 30px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  
+    -webkit-appearance: none;
+  
+}
+
+.main {
+    background-color: #E5E7EB;
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+
+
+
+
+@media (max-width: 1536px) {
+    .container {
+        width: 1026px;
+    }
+
+    
+    .number-tel {
+        font-size: 30px;
+    }
+
+    .number-free {
+        font-size: 20px;
+    }
+    
+    .main {
+        
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+
+    
+    .container {
+        width: 758px;
+        
+    }
+
+
+    
+}
+
+
+@media (max-width: 768px) {
+
+    
+    .container {
+        width: 640px;
+       
+    }
+
+    .main {
+        padding-top: 40px;
+    }
+
+}
+
+
+@media (max-width: 640px) {
+    .container {
+        width: 480px;
+    }
+}
+
+
+
+
+@media (max-width: 480px) {
+
+    .container {
+        width: 320px;
+    }
+
+
+    .main {
+        padding-top: 30px;
+    }
+
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    
+    .container {
+        width: 270px;
+    }
+
+   
+    .main {
+        padding-top: 20px;
+    }
+
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
